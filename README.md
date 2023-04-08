@@ -24,14 +24,14 @@ CREATE TABLE customers (
   phone VARCHAR (250) NOT NULL
 );
 ```
-<img src="~/images/image 3.png" alt="Create a new table" title="Create a new table">
+<img src="/images/image 3.png" alt="Create a new table" title="Create a new table">
 
 ### Verify that customers table exists
 Type \d command in the SQL Shell to verify that customers table exists
 ```SQL
 \d
 ```
-<img src="~/images/image 4.png" alt="Verify table exists" title="Verify table exists">
+<img src="/images/image 4.png" alt="Verify table exists" title="Verify table exists">
 
 ### Insert some demo data
 Connect to customer database by typing \c customer command
@@ -40,14 +40,14 @@ INSERT INTO customers (firstname, lastname, email, phone) VALUES ('John', 'Johns
 INSERT INTO customers (firstname, lastname, email, phone) VALUES ('Mary', 'Smith', 'mary@smith.com', '6654113');
 INSERT INTO customers (firstname, lastname, email, phone) VALUES ('Peter', 'North', 'peter@north.com', '901176');
 ```
-<img src="~/images/image 5.png" alt="Insert data" title="Insert data">
+<img src="/images/image 5.png" alt="Insert data" title="Insert data">
 
 ### Check the customers table
 Check that customers are added to the customers table
 ```SQL
 SELECT * FROM customers;
 ```
-<img src="~/images/image 6.png" alt="Check table" title="Check table">
+<img src="/images/image 6.png" alt="Check table" title="Check table">
 
 
 
