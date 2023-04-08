@@ -4,7 +4,7 @@ Create database and table for the customers
 
 ### Connect to database
 Connect to the postgres database using postgres user
-<img src="/images/image 1.png" alt="Connect to postfres" title="Connect to postfres">
+<img src="/images/image 1.png" alt="Connect to postgres" title="Connect to postgres">
 
 ### Create a new database
 Create a new database called customer
